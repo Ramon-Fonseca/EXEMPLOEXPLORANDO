@@ -1,14 +1,13 @@
 ﻿using System.Diagnostics.Tracing;
 using System.Globalization;
+using System.Threading.Channels;
 using EXEMPLOEXPLORANDO.Models;
 System.Globalization.CultureInfo.DefaultThreadCurrentCulture = new System.Globalization.CultureInfo("en-US");
 
 
-DateTime dataAtual = DateTime.Now;
 
-Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm"));
-
-
+ExemploExcecao exemplo = new ExemploExcecao();
+exemplo.Metodo1();
 
 
 
@@ -19,6 +18,67 @@ Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm"));
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+// try
+// {
+
+//     string[] linhas = File.ReadAllLines("Arquivos/arquivoLeitura.txt");
+
+//     foreach (string linha in linhas)
+//     {
+//         Console.WriteLine(linha);
+//     }
+
+// }
+// catch (FileNotFoundException ex)
+// {
+//     Console.WriteLine($"Ocorreu um erro na leitura do arquivo. Arquivo nao encontrado: {ex.Message}");
+// }
+
+// catch (DirectoryNotFoundException ex)
+// {
+//     Console.WriteLine($"Ocorreu um erro na leitura do arquivo. Arquivo nao encontrado: {ex.Message}");
+// }
+
+// catch (Exception ex)
+// {
+//     Console.WriteLine($"Ocorreu uma exceção genérica. Detalhes: {ex.Message}");
+// }
+// finally
+// {
+
+
+//     Console.WriteLine("Chegou ao fim do programa."); 
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//DateTime dataAtual = DateTime.Now;
+
+//Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm"));
 
 
 
