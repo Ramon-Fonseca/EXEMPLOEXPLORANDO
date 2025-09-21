@@ -1,12 +1,14 @@
 ﻿using System.Diagnostics.Tracing;
 using System.Globalization;
 using System.Threading.Channels;
+using ExemploExplorando.Models;
 using EXEMPLOEXPLORANDO.Models;
 System.Globalization.CultureInfo.DefaultThreadCurrentCulture = new System.Globalization.CultureInfo("en-US");
 
 
 
 ExemploExcecao exemplo = new ExemploExcecao();
+
 exemplo.Metodo1();
 
 
