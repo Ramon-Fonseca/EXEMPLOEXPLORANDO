@@ -7,9 +7,42 @@ System.Globalization.CultureInfo.DefaultThreadCurrentCulture = new System.Global
 
 
 
-ExemploExcecao exemplo = new ExemploExcecao();
+Queue<int> fila = new Queue<int>();
 
-exemplo.Metodo1();
+fila.Enqueue(2);
+fila.Enqueue(4);
+fila.Enqueue(6);
+fila.Enqueue(8);
+
+foreach (var item in fila)
+{
+    Console.WriteLine(item);
+}
+
+Console.WriteLine($"Remoendo o elemento: {fila.Dequeue()}");
+
+foreach (var item in fila)
+{
+    Console.WriteLine(item);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//ExemploExcecao exemplo = new ExemploExcecao();
+
+//exemplo.Metodo1();
 
 
 
