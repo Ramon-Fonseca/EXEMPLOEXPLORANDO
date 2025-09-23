@@ -6,22 +6,24 @@ using EXEMPLOEXPLORANDO.Models;
 System.Globalization.CultureInfo.DefaultThreadCurrentCulture = new System.Globalization.CultureInfo("en-US");
 
 
+Stack<int> pilha = new Stack<int>();
 
-Queue<int> fila = new Queue<int>();
+pilha.Push(4);
+pilha.Push(6);
+pilha.Push(8);
+pilha.Push(10);
 
-fila.Enqueue(2);
-fila.Enqueue(4);
-fila.Enqueue(6);
-fila.Enqueue(8);
 
-foreach (var item in fila)
+foreach (var item in pilha)
 {
     Console.WriteLine(item);
 }
 
-Console.WriteLine($"Remoendo o elemento: {fila.Dequeue()}");
+Console.WriteLine($"Removando o elemento do topo: {pilha.Pop()}");
 
-foreach (var item in fila)
+pilha.Push(20);
+
+foreach (var item in pilha)
 {
     Console.WriteLine(item);
 }
@@ -29,6 +31,41 @@ foreach (var item in fila)
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Queue<int> fila = new Queue<int>();
+
+//fila.Enqueue(2);
+//fila.Enqueue(4);
+//fila.Enqueue(6);
+//fila.Enqueue(8);
+
+//foreach (var item in fila)
+//{
+ //   Console.WriteLine(item);
+//}
+
+//Console.WriteLine($"Remoendo o elemento: {fila.Dequeue()}");
+
+//foreach (var item in fila)
+//{
+//    Console.WriteLine(item);
+//}
 
 
 
@@ -43,11 +80,6 @@ foreach (var item in fila)
 //ExemploExcecao exemplo = new ExemploExcecao();
 
 //exemplo.Metodo1();
-
-
-
-
-
 
 
 
