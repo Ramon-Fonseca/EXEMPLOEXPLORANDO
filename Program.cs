@@ -6,27 +6,13 @@ using EXEMPLOEXPLORANDO.Models;
 System.Globalization.CultureInfo.DefaultThreadCurrentCulture = new System.Globalization.CultureInfo("en-US");
 
 
-Stack<int> pilha = new Stack<int>();
+Dictionary<string, string> estados = new Dictionary<string, string>();
 
-pilha.Push(4);
-pilha.Push(6);
-pilha.Push(8);
-pilha.Push(10);
+estados.Add("SP", "São Paulo");
+estados.Add("BA", "Bahia");
+estados.Add("MG", "Minas Gerais");
 
-
-foreach (var item in pilha)
-{
-    Console.WriteLine(item);
-}
-
-Console.WriteLine($"Removando o elemento do topo: {pilha.Pop()}");
-
-pilha.Push(20);
-
-foreach (var item in pilha)
-{
-    Console.WriteLine(item);
-}
+Console.WriteLine(estados["MG"]);
 
 
 
@@ -41,6 +27,73 @@ foreach (var item in pilha)
 
 
 
+
+
+
+
+
+
+
+
+
+//foreach (KeyValuePair<string, string> item in estados)
+//{
+ //   Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
+//}
+
+//System.Console.WriteLine( "---------------");
+
+//estados.Remove("MG");
+//estados["SP"] = "São Paulo - valor alterado";
+
+//foreach (KeyValuePair<string, string> item in estados)
+//{
+  //  Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
+//}
+
+
+//string Chave = "BA2";
+//Console.WriteLine( $"Verificando o elemento {Chave}");
+
+//if (estados.ContainsKey(Chave))
+//{
+  //  Console.WriteLine($"Valor existente: {estados[Chave]}");
+//}
+//else
+//{
+  //  Console.WriteLine($"Valor não existente, É seguro adicionar a chave: {Chave}");
+//}
+
+
+
+
+
+
+
+
+
+
+//Stack<int> pilha = new Stack<int>();
+
+//pilha.Push(4);
+//pilha.Push(6);
+//pilha.Push(8);
+//pilha.Push(10);
+
+
+//foreach (var item in pilha)
+//{
+  //  Console.WriteLine(item);
+//}
+
+//Console.WriteLine($"Removando o elemento do topo: {pilha.Pop()}");
+
+//pilha.Push(20);
+
+//foreach (var item in pilha)
+//{
+  //  Console.WriteLine(item);
+//}
 
 
 
