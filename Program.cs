@@ -6,13 +6,13 @@ using EXEMPLOEXPLORANDO.Models;
 System.Globalization.CultureInfo.DefaultThreadCurrentCulture = new System.Globalization.CultureInfo("en-US");
 
 
-Dictionary<string, string> estados = new Dictionary<string, string>();
+//Dictionary<string, string> estados = new Dictionary<string, string>();
 
-estados.Add("SP", "São Paulo");
-estados.Add("BA", "Bahia");
-estados.Add("MG", "Minas Gerais");
+//estados.Add("SP", "São Paulo");
+//estados.Add("BA", "Bahia");
+//estados.Add("MG", "Minas Gerais");
 
-Console.WriteLine(estados["MG"]);
+//Console.WriteLine(estados["MG"]);
 
 
 
