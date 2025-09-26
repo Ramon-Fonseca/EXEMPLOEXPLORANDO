@@ -6,6 +6,84 @@ using EXEMPLOEXPLORANDO.Models;
 System.Globalization.CultureInfo.DefaultThreadCurrentCulture = new System.Globalization.CultureInfo("en-US");
 
 
+LeituraArquivo arquivo = new LeituraArquivo();
+
+var (Sucesso, LinhasArquivo, _) = arquivo.LerArquivo("Arquivos/arquivoLeitura.txt");
+
+if (Sucesso)
+{
+  //Console.WriteLine($"Quantidade de linhas do arquivo: {QuantidadedeLinhas}");
+
+  foreach (string linha in LinhasArquivo)
+  {
+    Console.WriteLine(linha);
+  }
+}
+else
+{
+  Console.WriteLine("Não foi possível ler o arquivo.");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//(int, string, string, decimal) tupla = (1, "Bruce", "Wayne", 1.88M);
+//ValueTuple<int, string, string, decimal> outroExemploTupla = (2, "Clark", "Kent", 1.90M);
+//var outroExemploTuplaCreate = Tuple.Create(3, "Peter", "Parker", 1.75M);
+
+
+
+
+
+//Console.WriteLine($"Id: {tupla.Item1}");
+//Console.WriteLine($"Nome: {tupla.Item2}");
+//Console.WriteLine($"Sobrenome: {tupla.Item3}");
+//Console.WriteLine($"Altura: {tupla.Item4}");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //Dictionary<string, string> estados = new Dictionary<string, string>();
 
 //estados.Add("SP", "São Paulo");
