@@ -6,23 +6,49 @@ using EXEMPLOEXPLORANDO.Models;
 System.Globalization.CultureInfo.DefaultThreadCurrentCulture = new System.Globalization.CultureInfo("en-US");
 
 
-LeituraArquivo arquivo = new LeituraArquivo();
 
-var (Sucesso, LinhasArquivo, _) = arquivo.LerArquivo("Arquivos/arquivoLeitura.txt");
 
-if (Sucesso)
-{
-  //Console.WriteLine($"Quantidade de linhas do arquivo: {QuantidadedeLinhas}");
+Pessoa p1 = new Pessoa("Ramon", "Costa");
 
-  foreach (string linha in LinhasArquivo)
-  {
-    Console.WriteLine(linha);
-  }
-}
-else
-{
-  Console.WriteLine("Não foi possível ler o arquivo.");
-}
+(string nome, string sobrenome) = p1;
+
+Console.WriteLine($"{nome} {sobrenome}");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// LeituraArquivo arquivo = new LeituraArquivo();
+
+// var (Sucesso, LinhasArquivo, _) = arquivo.LerArquivo("Arquivos/arquivoLeitura.txt");
+
+// if (Sucesso)
+// {
+//   //Console.WriteLine($"Quantidade de linhas do arquivo: {QuantidadedeLinhas}");
+
+//   foreach (string linha in LinhasArquivo)
+//   {
+//     Console.WriteLine(linha);
+//   }
+// }
+// else
+// {
+//   Console.WriteLine("Não foi possível ler o arquivo.");
+// }
 
 
 
