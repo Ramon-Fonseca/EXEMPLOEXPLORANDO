@@ -1,5 +1,6 @@
 ﻿using System.Diagnostics.Tracing;
 using System.Globalization;
+using System.Numerics;
 using System.Threading.Channels;
 using ExemploExplorando.Models;
 using EXEMPLOEXPLORANDO.Models;
@@ -8,11 +9,82 @@ System.Globalization.CultureInfo.DefaultThreadCurrentCulture = new System.Global
 
 
 
-Pessoa p1 = new Pessoa("Ramon", "Costa");
 
-(string nome, string sobrenome) = p1;
 
-Console.WriteLine($"{nome} {sobrenome}");
+
+
+
+
+
+
+
+
+
+
+
+
+
+// int numero = 20;
+
+// bool ehPar = false;
+
+
+// //IF Ternario
+
+// ehPar = numero % 2 == 0;
+
+// Console.WriteLine($"O numero {numero} é {(ehPar ? "par" : "ímpar")}");
+
+
+
+
+
+
+
+
+
+
+
+
+
+// if (numero % 2 == 0)
+// {
+//   Console.WriteLine("O número é par");
+// }
+// else
+// {
+//   Console.WriteLine("O número é ímpar");
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Pessoa p1 = new Pessoa("Ramon", "Costa");
+
+// (string nome, string sobrenome) = p1; 
+
+// Console.WriteLine($"{nome} {sobrenome}");
 
 
 
