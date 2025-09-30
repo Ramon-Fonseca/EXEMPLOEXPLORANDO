@@ -4,19 +4,18 @@ using System.Numerics;
 using System.Threading.Channels;
 using ExemploExplorando.Models;
 using EXEMPLOEXPLORANDO.Models;
+using Newtonsoft.Json;
 System.Globalization.CultureInfo.DefaultThreadCurrentCulture = new System.Globalization.CultureInfo("en-US");
 
 
 
 
 
+Venda v1 = new Venda(1, "Material de Escritório", 25.50M );
 
+string serializando = JsonConvert.SerializeObject(v1, Formatting.Indented);
 
-
-
-
-
-
+Console.WriteLine(serializando);
 
 
 

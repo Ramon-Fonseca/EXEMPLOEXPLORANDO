@@ -28,3 +28,6 @@ C:\Users\Ramon\Documents\EXEMPLOEXPLORANDO\obj\Debug\net9.0\refint\EXEMPLOEXPLOR
 C:\Users\Ramon\Documents\EXEMPLOEXPLORANDO\obj\Debug\net9.0\EXEMPLOEXPLORANDO.pdb
 C:\Users\Ramon\Documents\EXEMPLOEXPLORANDO\obj\Debug\net9.0\EXEMPLOEXPLORANDO.genruntimeconfig.cache
 C:\Users\Ramon\Documents\EXEMPLOEXPLORANDO\obj\Debug\net9.0\ref\EXEMPLOEXPLORANDO.dll
+C:\Users\Ramon\Documents\EXEMPLOEXPLORANDO\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\Ramon\Documents\EXEMPLOEXPLORANDO\obj\Debug\net9.0\EXEMPLOEXPLORANDO.csproj.AssemblyReference.cache
+C:\Users\Ramon\Documents\EXEMPLOEXPLORANDO\obj\Debug\net9.0\EXEMPLOE.200795F3.Up2Date
